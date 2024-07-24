@@ -35,6 +35,8 @@ Links para download:
 ![image](https://github.com/user-attachments/assets/56f3816a-6480-4b15-b25b-903644c8e807)
 ![image](https://github.com/user-attachments/assets/c5732634-fd45-4a26-9bf0-9daa67922330)
 
+5. Instale o Sistema Operacional, quando for sugerido reinicie a VM.
+
 
 
 
