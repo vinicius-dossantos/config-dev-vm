@@ -36,6 +36,42 @@ Links para download:
 ![image](https://github.com/user-attachments/assets/c5732634-fd45-4a26-9bf0-9daa67922330)
 
 5. Instale o Sistema Operacional, quando for sugerido reinicie a VM.
+6. Dispositivos > Inserir imagem de CD dos Adicionais para convidado...
+
+![image](https://github.com/user-attachments/assets/f0810356-c455-4622-841b-1c431f542015)
+
+7. Nas configurações da VM no seu VirtualBox, vá em Geral > Avançado:
+
+![image](https://github.com/user-attachments/assets/8c3782f6-4ef3-4e2e-99e9-68af4db64e3e)
+
+### Configurando o S.O e aplicativos
+
+1. Abra o terminal e execute a sequência de comandos a baixo:
+
+sudo apt update
+sudo apt upgrade
+sudo apt install build-essential gcc make perl dkms curl tcl
+
+2. Clique na imagem do CD, abra um terminal na pasta que foi aberta para você:
+
+![image](https://github.com/user-attachments/assets/0d84e787-b3e5-4b89-81ef-7dbdf007aff3)
+
+3. Nesse novo terminal digite o seguinte comando: sudo ./VboxLinuxAdditions.run
+4. Instale o Python executando os seguintes comandos:
+
+    sudo add-apt-repository ppa:deadsnakes/ppa 
+    
+    sudo apt install python3.10-venv python3.10-dev python3.10-distutils
+    
+    sudo apt update
+    
+    sudo apt install python3.10
+
+
+
+
+
+
 
 
 
